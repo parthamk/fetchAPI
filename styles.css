@@ -1,0 +1,35 @@
+tr, th, td{
+    border: 1px solid black;
+}
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .user {
+    background-color: #fff;
+    padding: 2rem;
+    border: solid 1px #ccd0d4;
+    border-radius: 0.3rem;
+    text-align: center;
+    margin: 1rem;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+}
+.container img {
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+.container h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+a {
+    text-decoration: none;
+    color: #f2bb13;
+} */
