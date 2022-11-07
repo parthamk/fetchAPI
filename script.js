@@ -21,11 +21,11 @@ function show(data){
     //         </tr>`
     let profBox;
     for (let x of data){
-        profBox = `<div class="wrap">
-                    <img src="${x.avatar}" alt="${x.first_name}'s picture"/>
-                    <p>${x.first_name} ${x.last_name}</p>
-                    <p>${x.email}</p>
-                </div>`
+            profBox = `<div class="wrap">
+                        <img src="${x.avatar}" alt="${x.first_name}'s picture"/>
+                        <p>${x.first_name} ${x.last_name}</p>
+                        <p>Email: ${x.email}</p>
+                       </div>`
     }
     document.getElementById("employees").innerHTML = profBox;
 }
